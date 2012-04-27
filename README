@@ -1,0 +1,22 @@
+# todo-webapp
+
+FIXME: write description
+
+## Usage
+
+FIXME: write
+
+## License
+
+Copyright (C) 2012 FIXME
+
+Distributed under the Eclipse Public License, the same as Clojure.
+
+Requirements
+------------
+
+As a user i want to
+  - display a list of events due today/this week/all
+  - create a new event, optionally setting its due date
+  - re-order the events on the list, order should be saved
+  - 

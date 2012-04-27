@@ -1,0 +1,22 @@
+API description
+
+GET /api
+  Returns API reference
+
+POST /tasks/create
+  Creates a new task
+
+  PARAMS:
+    * text
+    * priority
+    + due_date
+
+
+GET /tasks
+  Lists tasks
+
+  PARAMS:
+    + due_date
+    + start_date
+    + end_date
+

@@ -1,0 +1,53 @@
+webapp
+======
+
+- ensure REST API discoverability
+- user authentication (http basic for starters)
+- tests
+- json responses
+- routes
+  GET '/tasks' 
+    tasks-index
+  POST '/tasks'
+    task-create
+
+API spec
+
+
+
+client-app
+==========
+
+bsc
+===
+
+REST
+----
+
+- discoverability
+  RESTful API should be fully discoverable from the root with no prior knowledge. Moving forward, all state changes are driven by the client using the available and discoverable transitions that the REST API provides in representations (hence Representational State Transfer).
+- architecture
+  * (cilent-server) by separating the UI concerns from the data storage concerns we improve the portability of the user interface across multiple platforms, improve scalability, allow them to evolve independently
+  * (stateless)
+  * cacheability
+  * uniform interface
+- HATEOAS (hypermedia as the engine of application state)
+
+
+software as a service, SOA
+--------------------------
+- steve yegge post
+
+functional programming advocacy
+-------------------------------
+
+
+
+
+bibliography
+------------
+
+* Fielding's blog
+  http://roy.gbiv.com/untangled/
+
+* "Architectural Styles and the Design of Network-based Software Architectures" R.T.Fielding
